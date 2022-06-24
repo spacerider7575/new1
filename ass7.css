@@ -1,0 +1,15 @@
+table{
+    width: 700px;
+    text-align: center;
+    background-color: burlywood;
+    font-weight: bold;
+    color: darkblue;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+h5{
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: rgb(157, 215, 229);
+    color:black;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+.c1,.c2,.c3,.c4{
+    flex: 1;
+    flex-wrap: wrap;
+    border-color: blueviolet;
+    background-color:  rgb(157, 215, 229);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    float: left;
+    padding-block: 5px;
+    height: 300px;
+}
+.parent{
+    margin: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    padding-block: 50px;
+    width: 80%;
+    gap: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.d1,.d2,.d3,.d4{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: darkslateblue;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+body{
+    background-image: url("https://www.elevatemybrand.com/uploads/html/images/EMB_Blog_Image_%2337_OuterSpace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}

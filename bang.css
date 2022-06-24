@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(0, 0, 255, 0.349);
+    margin: 70px;
+}
+h1{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    margin:30px;
+    border-color: black;
+}

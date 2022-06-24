@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>SignUp Form</legend>
+        <div>
+            <label for="un">Username</label>
+            <input type="text" name="un" id="un">
+        </div>
+        <div>
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="no">Contact</label>
+            <input type="number" name="no" id="no">
+        </div>
+        <div>
+            <label for="gen">Gender</label>
+            <div>
+                <input type="radio" name="gen" id="m">
+                <label for="gen">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gen" id="f">
+                <label for="gen">Female</label>
+            </div>
+            <div>
+                <input type="radio" name="gen" id="ns">
+                <label for="gen">Not say</label>
+            </div>
+        </div>
+        <div>
+            <label for="gen">Skills</label>
+            <div>
+                <input type="checkbox" name="sk" id="sk">
+                <label for="sk">UI/UX</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sk" id="sk">
+                <label for="sk">CP</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sk" id="sk">
+                <label for="sk">ML</label>
+            </div>
+
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <div>
+            <label for="state">Select your State</label>
+            <select name="state" id="state">
+                <option value="">Select your State</option>
+                <option value="ts">Telangana</option>
+                <option value="tn">TamilNadu</option>
+                <option value="kn">Karnataka</option>
+                <option value="ap">Andhra Pradesh</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">Upload your resume</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <label for="fb">Feedback</label>
+            <textarea name="fb" id="fb" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>

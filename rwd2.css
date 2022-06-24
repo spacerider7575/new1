@@ -1,0 +1,7 @@
+profiles{
+    width: 250px;
+    text-align: center;
+    flex-direction: row;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}

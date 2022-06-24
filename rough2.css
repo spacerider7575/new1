@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Estonia', cursive;
+    font-size: 30px;
+    color:white;
+    background-image: url(https://i2.wp.com/www.uselessdaily.com/wp-content/uploads/2015/12/ian.jpg?fit=1920%2C1200&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+}
+
+.mn li {
+    padding: 3px;
+}
+
+.mn li:hover {
+    box-shadow: 0 1px 4px black;
+    background-color: black;
+    color: white;
+}
+
+h2,
+h3,
+a {
+    color: blueviolet;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.name {
+    font-size: 2.25em;
+    color:cornsilk;
+}
+
+.name a,
+.mn a {
+    text-align: center;
+}
+
+.mn a {
+    font-size: .95em;
+    color: #3acec2;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.mn a:hover {
+    color: #093a58;
+}
+
+.col {
+    padding: 0 1em;
+}
+
+.banner {
+    color: #fff;
+    padding: 3.2em 0;
+    margin-bottom: 60px;
+}
+
+.mf {
+    padding: 2em 0;
+    margin-top: 30px;
+    color: black;
+}
+
+.mh {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.container {
+    padding: 10px 0;
+}
+
+.banner,
+.mf {
+    text-align: center;
+}
+
+.logo {
+    width: 190px;
+}
+
+.feat-img {
+    width: 100%;
+}
+
+.headline {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mn li {
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .mh {
+        text-align: center;
+    }
+    body {
+        padding-top: 103.78px;
+    }
+    .mh {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        padding-top: 94.78px;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .name,
+    .col {
+        float: left;
+    }
+    .mh {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .pri,
+    .sec {
+        width: 50%;
+    }
+    .mn {
+        float: right;
+    }
+    .mn li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .mn a {
+        display: inline-block;
+        margin: 1em 10px;
+        padding: 0 10px;
+    }
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+.sec,
+.pri,
+.ter {
+    padding: 10px;
+}
+
+.sec:hover,
+.pri:hover,
+.ter:hover {
+    box-shadow: 0 1px 4px black;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+@media only screen and (min-width: 1025px) {
+    .container {
+        width: 85%;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    .name {
+        float: left;
+    }
+    .mn {
+        float: right;
+    }
+    .mn li {
+        float: left;
+    }
+    .mn a {
+        display: inline-block;
+        margin: 1em 10px;
+        padding: 0 10px;
+    }
+    .col {
+        float: left;
+    }
+    .pri {
+        width: 40%;
+    }
+    .sec,
+    .ter {
+        width: 30%;
+        padding-right: 2em;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

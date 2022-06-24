@@ -1,0 +1,36 @@
+.parent{
+    display: flex;
+    justify-content:space-around;
+}
+.child{
+    width:300px;
+    text-align: center;
+    background-color:bisque;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+img{
+    width:80%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.parent1{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    margin-top:10px;
+}
+.child1{
+    color:white;
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    color: white;
+    background-color:mediumvioletred;
+    padding:100px 10px 100px 10px;
+}
+p1>h1{
+    font-size: 4rem;
+}

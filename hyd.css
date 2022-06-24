@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+#id1{
+    margin:30px;
+    border-radius: 20px;
+    border-color: black;
+}
+#id2{
+    
+    margin: 30px;
+    border-color: black;
+    border-radius: 20px;
+}
+body{
+    margin: 70px;
+    background-color: rgba(0, 0, 255, 0.342);
+}
+img{
+    border:black;
+    margin: 30px;
+    border-radius: 20px;
+}

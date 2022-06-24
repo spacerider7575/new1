@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbrUBEfaxVymlhYxLF4MU1_F4cAYMIhlh9A&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#id0{
+    margin: white;
+    padding: 2rem 2rem;
+    text-align: center;
+
+}
+#id1{
+    display: inline-block;
+    font-size: large;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#id2{
+    display: inline-block;
+    font-size: large;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem 3.5rem;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#id3{
+    display: inline-block;
+    font-size: large;
+    color: white;
+    padding: 1rem 2rem;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

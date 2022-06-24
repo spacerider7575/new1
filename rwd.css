@@ -1,0 +1,11 @@
+img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: mediumvioletred;
+    font-size:calc(1rem + 4vw);
+}

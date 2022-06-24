@@ -1,0 +1,46 @@
+.parent{
+  display: flex;
+}
+.child
+{
+    color:white;
+    background-color:midnightblue;
+    width:100%;
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+h1{
+    color:fuchsia;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px sienna;
+    
+}
+.p1{
+     display: flex;
+     justify-content: space-evenly;
+     
+}
+.p2{
+     width: 350px;
+     background-color:brown;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5px gray;
+     height:400px;
+}
+img{
+  width: 85%;
+  height:50%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  padding-top: 5px;
+  
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 5px;
+  color:chartreuse;
+}

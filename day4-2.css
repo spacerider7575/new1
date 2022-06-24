@@ -1,0 +1,33 @@
+.parent{
+    display: flex;
+    background-image: url("https://media.istockphoto.com/photos/deep-space-background-picture-id178149253?k=20&m=178149253&s=612x612&w=0&h=TJOJWolz2MJt-QLH0jPvbl-Bz-4ySIvSTVdKoLP1lfg=");
+    
+}
+.child{
+    width:350px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    background-color:goldenrod;
+    margin:40px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px black;
+    flex-wrap: wrap;
+}
+img{
+    width:70%;
+    border-radius: 50%;
+    justify-content:space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+.fb{
+    width:50px;
+    position: relative;
+    bottom:-25px;
+    
+}
+.ins{
+    width:50px;
+    position:absolute;
+    top:20px;
+}

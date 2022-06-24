@@ -1,0 +1,66 @@
+.profilepic{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    }
+body{
+    background-color: burlywood;
+}
+.profile{
+    width: 280px;           
+    height:500px;
+    background-color: #F76FAD;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px grey;
+}
+.n1{
+    text-align: center;
+    color: rgb(10, 162, 233);
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: navy;
+}
+p{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+}
+.fb,.linkedin{
+    width: 50px;
+}
+.parent.fb{
+    position:absolute;
+    bottom: -25px;
+    left: 70px;
+}
+.parent.linkedin{
+    position:absolute;
+    top: -25px;
+    right: 70px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+.first{
+    color: white;
+    text-align: center;
+    background-color: rgb(158, 27, 10);
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
